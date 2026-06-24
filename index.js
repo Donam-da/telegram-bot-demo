@@ -28,7 +28,7 @@ bot.onText(/\/start/, (msg) => {
 
     // Bot tu dong ban video tu Cloud Telegram sang cho User
     bot.sendVideo(chatId, VIDEO_FILE_ID, {
-        caption: `Chao ${firstName}! Cam on ban da quan tam den Bot Demo. Duoi day la video gioi thieu danh cho ban! 🚀`
+        caption: `Chao ${firstName}! Cam on ban da quan tam den Bot Thông Báo. Inb @itisnotmyfault0 để mua password hoặc ib @hfnam04 để hỗ trợ 🚀`
     }).catch((error) => {
         console.error("Loi gui video:", error.message);
     });
